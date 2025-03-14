@@ -1,5 +1,5 @@
 # Get all icon folders
-$assetsPath = ".\fluentui-system-icons\assets"
+$assetsPath = "..\..\FluentIcons\fluentui-system-icons\assets"
 $iconFolders = Get-ChildItem -Path $assetsPath -Directory
 $preferredSize = 24
 
